@@ -1,0 +1,7 @@
+TIMESTAMP = 1686488164
+SHA256 (rocky/d/dbus-libs-1.12.20-7.el9_1.aarch64.rpm) = f7f1f175eff027474961de85063d7f43a73e0ca3910e25f92a038eb13bd88d5c
+SIZE (rocky/d/dbus-libs-1.12.20-7.el9_1.aarch64.rpm) = 152609
+SHA256 (rocky/d/dbus-libs-1.12.20-7.el9_1.x86_64.rpm) = 022b1069d277590144a9fd23abe9c927ab6f7d15cc53ebe483b7742a90ae5ab9
+SIZE (rocky/d/dbus-libs-1.12.20-7.el9_1.x86_64.rpm) = 154849
+SHA256 (rocky/d/dbus-1.12.20-7.el9_1.src.rpm) = 2e30135fd3ac1c06e1030728ecde09060ab026f7f9bcc40b6803fbbaedfa2d4f
+SIZE (rocky/d/dbus-1.12.20-7.el9_1.src.rpm) = 2136060
