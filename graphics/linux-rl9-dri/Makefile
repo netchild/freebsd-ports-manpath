@@ -8,11 +8,10 @@ COMMENT=	Mesa libGL runtime libraries (Rocky Linux ${LINUX_DIST_VER})
 
 USES=		linux:rl9
 USE_LDCONFIG=	yes
-USE_LINUX=	elfutils-libelf expat libdrm libglvnd wayland xorglibs
+USE_LINUX=	elfutils-libelf expat libdrm libglvnd llvm wayland xorglibs
 USE_LINUX_RPM=	yes
 
 LIB_DISTNAMES=	freeglut-3.2.1-9.el9 \
-		llvm-15.0.7-1.el9 \
 		mesa-dri-drivers-${DISTVERSIONFULL} \
 		mesa-libEGL-${DISTVERSIONFULL} \
 		mesa-libGL-${DISTVERSIONFULL} \
@@ -24,7 +23,6 @@ LIB_DISTNAMES_amd64=	m/mesa-vulkan-drivers-${DISTVERSIONFULL} \
 		m/mesa-libxatracker-${DISTVERSIONFULL}
 
 SRC_DISTFILES=	freeglut-3.2.1-9.el9${SRC_SUFX}:SOURCE \
-		llvm-15.0.7-1.el9${SRC_SUFX}:SOURCE \
 		mesa-${DISTVERSIONFULL}${SRC_SUFX}:SOURCE \
 		mesa-libGLU-9.0.1-6.el9${SRC_SUFX}:SOURCE
 

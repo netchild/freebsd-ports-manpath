@@ -5,7 +5,7 @@ CATEGORIES=	net linux
 PKGNAMESUFFIX=	-libs
 
 MAINTAINER=	emulation@FreeBSD.org
-COMMENT=	Libraries for Avahi (Linux CentOS ${LINUX_DIST_VER})
+COMMENT=	Libraries for Avahi (Rocky Linux ${LINUX_DIST_VER})
 WWW=		https://www.avahi.org/
 
 USES=		cpe linux:rl9

@@ -7,7 +7,7 @@ MAINTAINER=	emulation@FreeBSD.org
 COMMENT=	C stemming algorithm library (Rocky Linux ${LINUX_DIST_VER})
 WWW=		http://snowball.tartarus.org
 
-LICENSE=	BSD3Clause
+LICENSE=	BSD3CLAUSE
 
 USES=		cpe linux:rl9
 USE_LDCONFIG=	yes

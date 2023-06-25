@@ -118,4 +118,7 @@ usr/share/licenses/gdk-pixbuf2/COPYING
 usr/share/man/man1/gdk-pixbuf-query-loaders.1.gz
 usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer
 @postexec %D/usr/bin/gdk-pixbuf-query-loaders-64 --update-cache
+@rmtry usr/lib64/gdk-pixbuf-2.0/2.10.0/loaders.cache
 @dir usr/lib64/gdk-pixbuf-2.0/2.10.0/loaders
+@dir usr/lib64/gdk-pixbuf-2.0/2.10.0
+@dir usr/lib64/gdk-pixbuf-2.0

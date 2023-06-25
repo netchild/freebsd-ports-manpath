@@ -106,7 +106,6 @@ usr/bin/cp
 usr/bin/csplit
 usr/bin/cut
 usr/bin/date
-usr/bin/dbus-binding-tool
 usr/bin/dd
 usr/bin/derb
 usr/bin/df
@@ -571,7 +570,6 @@ usr/lib/.build-id/ab/67e9924d2e955e8d2fdca8d0398c68737f0131
 usr/lib/.build-id/ab/6983fe40a9c73a3daaba9ff230a4f4e4a16e6c
 usr/lib/.build-id/ab/7e412cbc6d80086dc14a0a4cf88fb7301bfbbc
 usr/lib/.build-id/ab/d1aaffb6d7067cf28ba4c13a1d58ba7c934be5
-usr/lib/.build-id/ab/e4f3e031e68c502e53a1f739bfb8a4d1a706a8
 usr/lib/.build-id/ad/5d1b652247fb0d7beb2539e9f531b5fd9e7fb8
 usr/lib/.build-id/ad/f7f3fb210fafe7259787713bf8b1bf1dda85fa
 usr/lib/.build-id/af/92639616e74e5cf75fe011c51db9a1aa346799
@@ -692,7 +690,6 @@ usr/lib/.build-id/f8/728b78800b62044617fe311ec41b65c8920184
 usr/lib/.build-id/f8/e9652d85a0705504d2f455c5c8fe315106c64d
 usr/lib/.build-id/f9/5b6ce553930fb6d594de8f7b8b549ce23e0ed1
 usr/lib/.build-id/fa/2637ecb3d830b79cc9c5af764e874a6f1bb3d5
-usr/lib/.build-id/fa/8c3406cd7881a5d4afe43594283a93752e5565
 usr/lib/.build-id/fa/fd3dfc84a09d1b1ec6d1d6c0a0e6d901c90c7e
 usr/lib/.build-id/fb/3c3edbc3e593ee7af2f0e257227f5d75be2dc2
 usr/lib/.build-id/fd/30e569bad9a65d226a0db63edec8cce0f27117
@@ -794,8 +791,6 @@ usr/lib64/libdatrie.so.1
 usr/lib64/libdatrie.so.1.4.0
 usr/lib64/libdb-5.3.so
 usr/lib64/libdb-5.so
-usr/lib64/libdbus-glib-1.so.2
-usr/lib64/libdbus-glib-1.so.2.3.4
 usr/lib64/libdl.so.2
 usr/lib64/libe2p.so.2
 usr/lib64/libe2p.so.2.3
@@ -1119,7 +1114,6 @@ usr/share/dbus-1/services/org.gtk.GLib.PACRunner.service
 %%PORTDOCS%%usr/share/doc/bzip2/CHANGES
 %%PORTDOCS%%usr/share/doc/bzip2/LICENSE
 %%PORTDOCS%%usr/share/doc/bzip2/README
-%%PORTDOCS%%usr/share/doc/dbus-glib/NEWS
 %%PORTDOCS%%usr/share/doc/diffutils/NEWS
 %%PORTDOCS%%usr/share/doc/diffutils/README
 %%PORTDOCS%%usr/share/doc/e2fsprogs/README
@@ -1231,7 +1225,6 @@ usr/share/keyutils/request-key-debug.sh
 usr/share/licenses/bash/COPYING
 usr/share/licenses/bzip2-libs/LICENSE
 usr/share/licenses/bzip2/LICENSE
-usr/share/licenses/dbus-glib/COPYING
 usr/share/licenses/diffutils/COPYING
 usr/share/licenses/e2fsprogs-libs/NOTICE
 usr/share/licenses/findutils/COPYING
@@ -1870,7 +1863,6 @@ usr/share/man/man1/compgen.1.gz
 usr/share/man/man1/complete.1.gz
 usr/share/man/man1/compopt.1.gz
 usr/share/man/man1/continue.1.gz
-usr/share/man/man1/dbus-binding-tool.1.gz
 usr/share/man/man1/declare.1.gz
 usr/share/man/man1/derb.1.gz
 usr/share/man/man1/diff.1.gz

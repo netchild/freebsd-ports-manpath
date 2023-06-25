@@ -209,6 +209,8 @@
     SUBDIR += libzen
     SUBDIR += linux-c7-libtheora
     SUBDIR += linux-c7-libv4l
+    SUBDIR += linux-rl9-libtheora
+    SUBDIR += linux-rl9-libv4l
     SUBDIR += linux-tsmuxer
     SUBDIR += linux_dvbwrapper-kmod
     SUBDIR += livego

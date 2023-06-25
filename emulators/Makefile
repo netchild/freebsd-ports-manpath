@@ -69,6 +69,7 @@
     SUBDIR += linux-power10-functional-sim
     SUBDIR += linux-power9-functional-sim
     SUBDIR += linux_base-c7
+    SUBDIR += linux_base-rl9
     SUBDIR += magia
     SUBDIR += mame
     SUBDIR += mastergear

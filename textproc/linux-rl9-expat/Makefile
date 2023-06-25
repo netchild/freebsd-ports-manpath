@@ -4,7 +4,7 @@ DISTVERSIONSUFFIX=	-1.el9
 CATEGORIES=	textproc linux
 
 MAINTAINER=	emulation@FreeBSD.org
-COMMENT=	XML 1.0 parser written in C (Linux CentOS ${LINUX_DIST_VER})
+COMMENT=	XML 1.0 parser written in C (Rocky Linux ${LINUX_DIST_VER})
 WWW=		https://github.com/libexpat/libexpat
 
 LICENSE=	MIT

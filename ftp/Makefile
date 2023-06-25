@@ -33,6 +33,7 @@
     SUBDIR += lftp
     SUBDIR += libfilezilla
     SUBDIR += linux-c7-curl
+    SUBDIR += linux-rl9-curl
     SUBDIR += mirror
     SUBDIR += ncftp3
     SUBDIR += net2ftp
