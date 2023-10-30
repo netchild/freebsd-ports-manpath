@@ -9,7 +9,7 @@
 #
 # Variables, which can be set by the port:
 #
-#  ELECTRONFIX_SYMLINK_FILES	List of files to be symlinked from Electrom distribution.
+#  ELECTRONFIX_SYMLINK_FILES	List of files to be symlinked from Electron distribution.
 #
 #  ELECTRONFIX_MAIN_EXECUTABLE	File name of the main executable to be replaced
 #				with the original Electron binary.
@@ -33,32 +33,6 @@ _ELECTRONFIX_MK_VERSION=	${_ver}
 
 BUILD_DEPENDS+=	electron${_ELECTRONFIX_MK_VERSION}:devel/electron${_ELECTRONFIX_MK_VERSION}
 RUN_DEPENDS+=	electron${_ELECTRONFIX_MK_VERSION}:devel/electron${_ELECTRONFIX_MK_VERSION}
-
-# All deps below are there only to please stage-qa
-
-# LIB_DEPENDS+=	libatk-bridge-2.0.so:accessibility/at-spi2-core \
-# 		libatspi.so:accessibility/at-spi2-core \
-# 		libsnappy.so:archivers/snappy \
-# 		libopus.so:audio/opus \
-# 		libdbus-1.so:devel/dbus \
-# 		libicuuc.so:devel/icu \
-# 		libevent.so:devel/libevent \
-# 		libnspr4.so:devel/nspr \
-# 		libFLAC.so:audio/flac \
-# 		libpci.so:devel/libpci \
-# 		libdrm.so:graphics/libdrm \
-# 		libpng.so:graphics/png \
-# 		libwayland-client.so:graphics/wayland \
-# 		libwebp.so:graphics/webp \
-# 		libopenh264.so:multimedia/openh264 \
-# 		libharfbuzz.so:print/harfbuzz \
-# 		libexpat.so:textproc/expat2 \
-# 		libnss3.so:security/nss \
-# 		libxkbcommon.so:x11/libxkbcommon \
-# 		libxshmfence.so:x11/libxshmfence \
-# 		libfontconfig.so:x11-fonts/fontconfig \
-# 		libcups.so:print/cups \
-# 		libasound.so:audio/alsa-lib
 
 ELECTRONFIX_SYMLINK_FILES?= \
 			chromedriver \
