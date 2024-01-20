@@ -752,7 +752,7 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				- Pass these args to configure if ${HAS_CONFIGURE} is set.
 #				  Default: "--prefix=${GNU_CONFIGURE_PREFIX}
 #				  --infodir=${PREFIX}/${INFO_PATH} --localstatedir=/var
-#				  --mandir=${MANPREFIX}/man --build=${CONFIGURE_TARGET}" if
+#				  --mandir=${PREFIX}/share/man --build=${CONFIGURE_TARGET}" if
 #				  GNU_CONFIGURE is set, "CC=${CC} CFLAGS=${CFLAGS}
 #				  PREFIX=${PREFIX} INSTALLPRIVLIB=${PREFIX}/lib
 #				  INSTALLARCHLIB=${PREFIX}/lib" if USES=perl5 and
@@ -2717,7 +2717,7 @@ SET_LATE_CONFIGURE_ARGS= \
 	    _LATE_CONFIGURE_ARGS="$${_LATE_CONFIGURE_ARGS} --localstatedir=/var" ; \
 	fi ; \
 	if [ ! -z "`${CONFIGURE_CMD} --help 2>&1 | ${GREP} -- '--mandir'`" ]; then \
-	    _LATE_CONFIGURE_ARGS="$${_LATE_CONFIGURE_ARGS} --mandir=${GNU_CONFIGURE_MANPREFIX}/man" ; \
+	    _LATE_CONFIGURE_ARGS="$${_LATE_CONFIGURE_ARGS} --mandir=${GNU_CONFIGURE_PREFIX}/share/man" ; \
 	fi ; \
 	if [ ! -z "`${CONFIGURE_CMD} --help 2>&1 | ${GREP} -- '--disable-silent-rules'`" ]; then \
 	    _LATE_CONFIGURE_ARGS="$${_LATE_CONFIGURE_ARGS} --disable-silent-rules" ; \
