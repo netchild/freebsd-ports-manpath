@@ -14,10 +14,10 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	Rup0rt
 
 PLIST_FILES=	bin/pcapfix \
-		man/man1/pcapfix.1.gz
+		share/man/man1/pcapfix.1.gz
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/${PORTNAME} ${STAGEDIR}${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/${PORTNAME}.1 ${STAGEDIR}${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/${PORTNAME}.1 ${STAGEDIR}${PREFIX}/share/man/man1
 
 .include <bsd.port.mk>
